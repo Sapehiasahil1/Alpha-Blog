@@ -7,13 +7,21 @@ class ArticlesController < ApplicationController
   end
 
   def index
+    @articles = Article.all
+
     if params[:q].present?
-      @articles = Article.where("title LIKE ? OR description LIKE ?", "%#{params[:q]}%", "%#{params[:q]}%")
-                         .order(created_at: :desc)
-                         .paginate(page: params[:page], per_page: 5)
-    else
-      @articles = Article.order(created_at: :desc).paginate(page: params[:page], per_page: 5)
+      @articles = @articles.where("title ILIKE ? OR description ILIKE ?", "%#{params[:q]}%", "%#{params[:q]}%")
     end
+
+    if params[:tag_id].present?
+      @articles = @articles.joins(:tags).where(tags: { id: params[:tag_id] })
+    end
+
+    if params[:user_id].present?
+      @articles = @articles.where(user_id: params[:user_id])
+    end
+
+    @articles = @articles.order(created_at: :desc).paginate(page: params[:page], per_page: 5)
   end
 
   def new

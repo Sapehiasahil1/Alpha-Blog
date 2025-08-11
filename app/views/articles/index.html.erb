@@ -1,5 +1,20 @@
 <h1 class="text-center mt-4">Listing all articles</h1>
 
+<div class="mb-4">
+  <%= form_with url: articles_path, method: :get, local: true, class: "row g-3 align-items-center" do %>
+    <div class="col-auto">
+      <%= label_tag :tag_id, "Filter by Tag:" %>
+      <%= select_tag :tag_id, options_from_collection_for_select(Tag.all, :id, :name, params[:tag_id]), include_blank: "All Tags", class: "form-select" %>
+    </div>
+    <div class="col-auto">
+      <%= label_tag :user_id, "Filter by User:" %>
+      <%= select_tag :user_id, options_from_collection_for_select(User.all, :id, :username, params[:user_id]), include_blank: "All Users", class: "form-select" %>
+    </div>
+    <div class="col-auto">
+      <%= submit_tag "Filter", class: "btn btn-outline-primary" %>
+    </div>
+  <% end %>
+</div>
 
 <%= render 'article' %>
 <div class="flickr_pagination mb-4">
