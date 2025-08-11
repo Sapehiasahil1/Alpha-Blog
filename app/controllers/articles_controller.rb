@@ -7,7 +7,13 @@ class ArticlesController < ApplicationController
   end
 
   def index
-    @articles = Article.order(created_at: :desc).paginate(page: params[:page], per_page: 5)
+    if params[:q].present?
+      @articles = Article.where("title LIKE ? OR description LIKE ?", "%#{params[:q]}%", "%#{params[:q]}%")
+                         .order(created_at: :desc)
+                         .paginate(page: params[:page], per_page: 5)
+    else
+      @articles = Article.order(created_at: :desc).paginate(page: params[:page], per_page: 5)
+    end
   end
 
   def new
