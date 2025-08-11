@@ -5,20 +5,74 @@
     <div class="col-8 mt-4">
       <div class="card text-center shadow mb-5 bg-white rounded">
         <div class="card-header font-italic">
-          by <%= @article.user.username if @article.user %>
+          by <%= @article.user ? @article.user.username : "Unknown Author" %>
         </div>
         <div class="card-body">
           <div class="card-text text-left"><%= simple_format(@article.description) %></div>
           <% if logged_in? && (@article.user == current_user || current_user.admin?) %>
             <%= link_to "Edit", edit_article_path(@article), class: "btn btn-outline-info" %>
-            <%= link_to "Delete", article_path(@article), class: "btn btn-outline-danger", method: :delete, data: {confirm: "Are you sure?"} %>
+            <%= link_to "Delete", article_path(@article), class: "btn btn-outline-danger", method: :delete, data: { confirm: "Are you sure?" } %>
           <% end %>
         </div>
         <div class="card-footer text-muted">
-          <small>Created <%= time_ago_in_words(@article.created_at) %> ago, 
-          edited <%= time_ago_in_words(@article.updated_at) %> ago</small>
+          <small>
+            Created <%= time_ago_in_words(@article.created_at) %> ago,
+            edited <%= time_ago_in_words(@article.updated_at) %> ago
+          </small>
         </div>
       </div>
+
+      <!-- Section 1: Total Comments -->
+      <div class="mb-4">
+        <h4>Total Comments: <%= @article.comments.count %></h4>
+      </div>
+
+      <!-- Section 2: Comment Form -->
+      <% if logged_in? %>
+        <div class="card mb-4">
+          <div class="card-body">
+            <%= form_with(model: [@article, @article.comments.build], local: true) do |f| %>
+              <div class="mb-3">
+                <%= f.label :content, "Add a Comment", class: "form-label" %>
+                <%= f.text_area :content, rows: 3, class: "form-control", placeholder: "Write your comment here..." %>
+              </div>
+              <%= f.submit "Post", class: "btn btn-primary" %>
+            <% end %>
+          </div>
+        </div>
+      <% else %>
+        <p>
+          You must <%= link_to "log in", login_path %> to post a comment.
+        </p>
+      <% end %>
+
+      <!-- Section 3: Display Comments -->
+      <% if @article.comments.present? %>
+        <% @article.comments.each do |comment| %>
+          <div class="card mb-2">
+            <div class="card-body">
+              <strong>
+                <%= comment.user.present? ? comment.user.username : "Deleted User" %>:
+              </strong>
+              <p><%= simple_format(comment.content) %></p>
+              <small class="text-muted">
+                <% if comment.created_at.present? %>
+                  Posted <%= time_ago_in_words(comment.created_at) %> ago
+                <% else %>
+                  Posted at unknown time
+                <% end %>
+              </small>
+              <% if logged_in? && comment.user.present? && (comment.user == current_user || current_user.admin?) %>
+                <%= link_to "Delete", article_comment_path(@article, comment),
+                            method: :delete,
+                            data: { confirm: "Are you sure?" },
+                            class: "btn btn-sm btn-outline-danger ms-2" %>
+              <% end %>
+            </div>
+          </div>
+        <% end %>
+      <% end %>
+
     </div>
   </div>
 </div>
