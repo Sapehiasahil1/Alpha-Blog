@@ -6,10 +6,10 @@ checking for altzone in time.h with  -Werror... no
 creating Makefile
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/date-3.4.1/ext/date
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-2xnms3 sitelibdir\=./.gem.20250807-16898-2xnms3 clean
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-4mxt0w sitelibdir\=./.gem.20250811-19165-4mxt0w clean
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/date-3.4.1/ext/date
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-2xnms3 sitelibdir\=./.gem.20250807-16898-2xnms3
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-4mxt0w sitelibdir\=./.gem.20250811-19165-4mxt0w
 compiling date_core.c
 compiling date_parse.c
 compiling date_strftime.c
@@ -17,8 +17,8 @@ compiling date_strptime.c
 linking shared-object date_core.so
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/date-3.4.1/ext/date
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-2xnms3 sitelibdir\=./.gem.20250807-16898-2xnms3 install
-/usr/bin/install -c -m 0755 date_core.so ./.gem.20250807-16898-2xnms3
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-4mxt0w sitelibdir\=./.gem.20250811-19165-4mxt0w install
+/usr/bin/install -c -m 0755 date_core.so ./.gem.20250811-19165-4mxt0w
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/date-3.4.1/ext/date
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-2xnms3 sitelibdir\=./.gem.20250807-16898-2xnms3 clean
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-4mxt0w sitelibdir\=./.gem.20250811-19165-4mxt0w clean

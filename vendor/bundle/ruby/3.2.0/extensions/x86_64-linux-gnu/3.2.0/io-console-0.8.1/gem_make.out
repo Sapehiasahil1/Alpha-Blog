@@ -16,16 +16,16 @@ checking for ttyname_r()... yes
 creating Makefile
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/io-console-0.8.1/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-g3q1bd sitelibdir\=./.gem.20250807-16898-g3q1bd clean
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-v3pv2 sitelibdir\=./.gem.20250811-19165-v3pv2 clean
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/io-console-0.8.1/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-g3q1bd sitelibdir\=./.gem.20250807-16898-g3q1bd
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-v3pv2 sitelibdir\=./.gem.20250811-19165-v3pv2
 compiling console.c
 linking shared-object io/console.so
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/io-console-0.8.1/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-g3q1bd sitelibdir\=./.gem.20250807-16898-g3q1bd install
-/usr/bin/install -c -m 0755 console.so ./.gem.20250807-16898-g3q1bd/io
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-v3pv2 sitelibdir\=./.gem.20250811-19165-v3pv2 install
+/usr/bin/install -c -m 0755 console.so ./.gem.20250811-19165-v3pv2/io
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/io-console-0.8.1/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-g3q1bd sitelibdir\=./.gem.20250807-16898-g3q1bd clean
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-v3pv2 sitelibdir\=./.gem.20250811-19165-v3pv2 clean

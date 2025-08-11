@@ -28,17 +28,17 @@ checking for RB_WARN_CATEGORY_DEPRECATED in ruby.h... yes
 creating Makefile
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.2.2/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-7ve288 sitelibdir\=./.gem.20250807-16898-7ve288 clean
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-alsot8 sitelibdir\=./.gem.20250811-19165-alsot8 clean
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.2.2/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-7ve288 sitelibdir\=./.gem.20250807-16898-7ve288
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-alsot8 sitelibdir\=./.gem.20250811-19165-alsot8
 compiling bigdecimal.c
 compiling missing.c
 linking shared-object bigdecimal.so
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.2.2/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-7ve288 sitelibdir\=./.gem.20250807-16898-7ve288 install
-/usr/bin/install -c -m 0755 bigdecimal.so ./.gem.20250807-16898-7ve288
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-alsot8 sitelibdir\=./.gem.20250811-19165-alsot8 install
+/usr/bin/install -c -m 0755 bigdecimal.so ./.gem.20250811-19165-alsot8
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.2.2/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-7ve288 sitelibdir\=./.gem.20250807-16898-7ve288 clean
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-alsot8 sitelibdir\=./.gem.20250811-19165-alsot8 clean

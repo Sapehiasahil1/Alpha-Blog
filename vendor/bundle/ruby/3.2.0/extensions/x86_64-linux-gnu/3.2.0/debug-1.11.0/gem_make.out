@@ -3,17 +3,17 @@ current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/g
 creating Makefile
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/debug-1.11.0/ext/debug
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-357na8 sitelibdir\=./.gem.20250807-16898-357na8 clean
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-qm9lw6 sitelibdir\=./.gem.20250811-19165-qm9lw6 clean
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/debug-1.11.0/ext/debug
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-357na8 sitelibdir\=./.gem.20250807-16898-357na8
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-qm9lw6 sitelibdir\=./.gem.20250811-19165-qm9lw6
 compiling debug.c
 compiling iseq_collector.c
 linking shared-object debug/debug.so
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/debug-1.11.0/ext/debug
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-357na8 sitelibdir\=./.gem.20250807-16898-357na8 install
-/usr/bin/install -c -m 0755 debug.so ./.gem.20250807-16898-357na8/debug
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-qm9lw6 sitelibdir\=./.gem.20250811-19165-qm9lw6 install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20250811-19165-qm9lw6/debug
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/debug-1.11.0/ext/debug
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-357na8 sitelibdir\=./.gem.20250807-16898-357na8 clean
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-qm9lw6 sitelibdir\=./.gem.20250811-19165-qm9lw6 clean

@@ -1,0 +1,41 @@
+=> 
+[[32m#<User:0x0000751600fcdc18[0m
+  id: [34m[1m1[0m,
+  username: [31m[1m"[0m[31msahil[0m[31m[1m"[0m,
+  email: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,
+  created_at: [31m[1m"[0m[31m2025-08-08 10:22:37.900662000 +0000[0m[31m[1m"[0m,
+  updated_at: [31m[1m"[0m[31m2025-08-11 07:17:08.367171000 +0000[0m[31m[1m"[0m,
+  password_digest: [36m[1mnil[0m,
+  admin: [36m[1mtrue[0m[32m>[0m,
+ [32m#<User:0x0000751600fcdad8[0m
+  id: [34m[1m2[0m,
+  username: [31m[1m"[0m[31msahilsapehia[0m[31m[1m"[0m,
+  email: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,
+  created_at: [31m[1m"[0m[31m2025-08-09 05:58:43.688546000 +0000[0m[31m[1m"[0m,
+  updated_at: [31m[1m"[0m[31m2025-08-09 05:58:43.688546000 +0000[0m[31m[1m"[0m,
+  password_digest: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,
+  admin: [36m[1mfalse[0m[32m>[0m,
+ [32m#<User:0x0000751600fcd998[0m
+  id: [34m[1m3[0m,
+  username: [31m[1m"[0m[31mpranay[0m[31m[1m"[0m,
+  email: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,
+  created_at: [31m[1m"[0m[31m2025-08-09 06:43:47.357700000 +0000[0m[31m[1m"[0m,
+  updated_at: [31m[1m"[0m[31m2025-08-09 06:43:47.357700000 +0000[0m[31m[1m"[0m,
+  password_digest: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,
+  admin: [36m[1mfalse[0m[32m>[0m,
+ [32m#<User:0x0000751600fcd718[0m
+  id: [34m[1m4[0m,
+  username: [31m[1m"[0m[31mutkarsh[0m[31m[1m"[0m,
+  email: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,
+  created_at: [31m[1m"[0m[31m2025-08-09 06:44:35.860321000 +0000[0m[31m[1m"[0m,
+  updated_at: [31m[1m"[0m[31m2025-08-09 06:44:35.860321000 +0000[0m[31m[1m"[0m,
+  password_digest: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,
+  admin: [36m[1mfalse[0m[32m>[0m,
+ [32m#<User:0x0000751600fcd498[0m
+  id: [34m[1m5[0m,
+  username: [31m[1m"[0m[31mbrijesh[0m[31m[1m"[0m,
+  email: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,
+  created_at: [31m[1m"[0m[31m2025-08-11 05:58:03.981357000 +0000[0m[31m[1m"[0m,
+  updated_at: [31m[1m"[0m[31m2025-08-11 05:58:03.981357000 +0000[0m[31m[1m"[0m,
+  password_digest: [31m[1m"[0m[31m[FILTERED][0m[31m[1m"[0m,
+  admin: [36m[1mfalse[0m[32m>[0m]

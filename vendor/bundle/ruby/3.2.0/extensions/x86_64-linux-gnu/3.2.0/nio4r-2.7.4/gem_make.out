@@ -13,10 +13,10 @@ checking for sys/resource.h... yes
 creating Makefile
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.4/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-fyn1h2 sitelibdir\=./.gem.20250807-16898-fyn1h2 clean
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-c5a6n0 sitelibdir\=./.gem.20250811-19165-c5a6n0 clean
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.4/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-fyn1h2 sitelibdir\=./.gem.20250807-16898-fyn1h2
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-c5a6n0 sitelibdir\=./.gem.20250811-19165-c5a6n0
 compiling bytebuffer.c
 compiling monitor.c
 compiling nio4r_ext.c
@@ -46,8 +46,8 @@ selector.c:525:5: warning: ignoring return value of ‘write’ declared with at
 linking shared-object nio4r_ext.so
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.4/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-fyn1h2 sitelibdir\=./.gem.20250807-16898-fyn1h2 install
-/usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20250807-16898-fyn1h2
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-c5a6n0 sitelibdir\=./.gem.20250811-19165-c5a6n0 install
+/usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20250811-19165-c5a6n0
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/nio4r-2.7.4/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-fyn1h2 sitelibdir\=./.gem.20250807-16898-fyn1h2 clean
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-c5a6n0 sitelibdir\=./.gem.20250811-19165-c5a6n0 clean

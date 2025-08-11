@@ -3,16 +3,16 @@ current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/g
 creating Makefile
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-96n5pc sitelibdir\=./.gem.20250807-16898-96n5pc clean
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-h31cys sitelibdir\=./.gem.20250811-19165-h31cys clean
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-96n5pc sitelibdir\=./.gem.20250807-16898-96n5pc
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-h31cys sitelibdir\=./.gem.20250811-19165-h31cys
 compiling cparse.c
 linking shared-object racc/cparse.so
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-96n5pc sitelibdir\=./.gem.20250807-16898-96n5pc install
-/usr/bin/install -c -m 0755 cparse.so ./.gem.20250807-16898-96n5pc/racc
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-h31cys sitelibdir\=./.gem.20250811-19165-h31cys install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20250811-19165-h31cys/racc
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-96n5pc sitelibdir\=./.gem.20250807-16898-96n5pc clean
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-h31cys sitelibdir\=./.gem.20250811-19165-h31cys clean

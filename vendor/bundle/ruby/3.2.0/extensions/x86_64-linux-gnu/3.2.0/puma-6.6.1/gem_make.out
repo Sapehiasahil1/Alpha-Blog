@@ -26,18 +26,18 @@ checking for Random.bytes... yes
 creating Makefile
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/puma-6.6.1/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-lzttm sitelibdir\=./.gem.20250807-16898-lzttm clean
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-xtt0wm sitelibdir\=./.gem.20250811-19165-xtt0wm clean
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/puma-6.6.1/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-lzttm sitelibdir\=./.gem.20250807-16898-lzttm
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-xtt0wm sitelibdir\=./.gem.20250811-19165-xtt0wm
 compiling http11_parser.c
 compiling mini_ssl.c
 compiling puma_http11.c
 linking shared-object puma/puma_http11.so
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/puma-6.6.1/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-lzttm sitelibdir\=./.gem.20250807-16898-lzttm install
-/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20250807-16898-lzttm/puma
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-xtt0wm sitelibdir\=./.gem.20250811-19165-xtt0wm install
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20250811-19165-xtt0wm/puma
 
 current directory: /home/asus/Desktop/Ruby/alpha_blog/vendor/bundle/ruby/3.2.0/gems/puma-6.6.1/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20250807-16898-lzttm sitelibdir\=./.gem.20250807-16898-lzttm clean
+make DESTDIR\= sitearchdir\=./.gem.20250811-19165-xtt0wm sitelibdir\=./.gem.20250811-19165-xtt0wm clean
