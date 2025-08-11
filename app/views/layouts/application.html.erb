@@ -22,10 +22,12 @@
     <%= javascript_include_tag "rails-ujs" %>
   </head>
 
-  <body>
-    <% flash.each do |name, msg| %>
-      <%= msg %>
-    <% end %>  
-    <%= yield %>
+  <body class="d-flex flex-column">
+    <%= render 'layouts/navigation' %>
+    <div id="page-content">
+      <%= render 'layouts/messages' %>
+      <%= yield %>
+    </div>
+    <%= render 'layouts/footer' %>
   </body>
 </html>
