@@ -1,6 +1,6 @@
 class ArticlesController < ApplicationController
   before_action :set_article, only: [ :show, :edit, :update, :destroy ]
-  before_action :require_user, except: [ :show, :index ]
+  before_action :authenticate_jwt_user, except: [ :show, :index ]
   before_action :require_same_user, only: [ :edit, :update, :destroy ]
 
   def show
@@ -70,9 +70,8 @@ class ArticlesController < ApplicationController
 
   def process_tags(article, tag_string)
     return if tag_string.blank?
-
-    tag_names = tag_string.split(",").map(&:strip).reject(&:blank?)
-    tag_names.each do |tag_name|
+      tag_names = tag_string.split(",").map(&:strip).reject(&:blank?)
+      tag_names.each do |tag_name|
       tag = Tag.find_or_create_by(name: tag_name)
       article.tags << tag unless article.tags.include?(tag)
     end

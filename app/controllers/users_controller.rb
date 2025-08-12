@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
-  before_action :set_user, only: [:show, :edit, :update, :destroy]
-  before_action :require_user, only: [:edit, :update]
-  before_action :require_same_user, only: [:edit, :update, :destroy]
+  before_action :set_user, only: [ :show, :edit, :update, :destroy ]
+  before_action :authenticate_request!, only: [ :edit, :update ]
+  before_action :require_same_user, only: [ :edit, :update, :destroy ]
 
   def show
     @articles = @user.articles.paginate(page: params[:page], per_page: 5)
@@ -23,7 +23,7 @@ class UsersController < ApplicationController
       flash[:notice] = "Your account information was successfully updated"
       redirect_to @user
     else
-      render 'edit'
+      render "edit"
     end
   end
 
@@ -34,7 +34,7 @@ class UsersController < ApplicationController
       flash[:notice] = "Welcome to the Alpha Blog #{@user.username}, you have successfully signed up"
       redirect_to articles_path
     else
-      render 'new'
+      render "new"
     end
   end
 
@@ -55,11 +55,9 @@ class UsersController < ApplicationController
   end
 
   def require_same_user
-
     if current_user != @user && !current_user.admin?
       flash[:alert] = "You can only edit or delete your own account"
       redirect_to @user
     end
   end
-  
 end

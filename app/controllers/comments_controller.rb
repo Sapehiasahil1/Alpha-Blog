@@ -1,5 +1,5 @@
 class CommentsController < ApplicationController
-  before_action :require_user
+  before_action :authenticate_request!
   before_action :set_article
 
   def create
